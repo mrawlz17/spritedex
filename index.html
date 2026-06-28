@@ -1,1 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SpriteDex</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app">
+    <header class="top">
+      <div>
+        <p class="eyebrow">Fortnite Companion</p>
+        <h1>SpriteDex</h1>
+      </div>
+      <button id="resetBtn">Reset</button>
+    </header>
 
+    <section class="progress">
+      <div>
+        <span id="ownedPct">0%</span>
+        <p>Owned</p>
+      </div>
+      <div>
+        <span id="masteredPct">0%</span>
+        <p>Mastered</p>
+      </div>
+      <div>
+        <span id="totalCount">0</span>
+        <p>Sprites</p>
+      </div>
+    </section>
+
+    <section class="controls">
+      <input id="searchInput" type="search" placeholder="Search sprites..." />
+      <select id="filterSelect">
+        <option value="all">All</option>
+        <option value="missing">Missing</option>
+        <option value="owned">Owned</option>
+        <option value="mastered">Mastered</option>
+      </select>
+    </section>
+
+    <main id="grid" class="grid"></main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
