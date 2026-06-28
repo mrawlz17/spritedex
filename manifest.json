@@ -1,0 +1,9 @@
+{
+  "name": "SpriteDex",
+  "short_name": "SpriteDex",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#071226",
+  "theme_color": "#071226",
+  "icons": []
+}
